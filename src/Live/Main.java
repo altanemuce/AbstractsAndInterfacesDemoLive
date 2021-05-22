@@ -14,7 +14,7 @@ public class Main {
 		
 		
 		BaseCustomerManager customerManager=new StarbucksCustomerManager(new MernisServiceAdapter());
-		customerManager.save(new Customer(1,"altan","emuce",LocalDate.of(1995, 2, 23),"20542563108"));
+		customerManager.save(new Customer(1,"altan","emuce",LocalDate.of(1998, 4, 23),"20542563108"));
 		System.out.println();
 
 	}
